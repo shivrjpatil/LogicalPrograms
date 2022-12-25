@@ -10,11 +10,27 @@ namespace LogicalPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to Logical Programs");
-            
-            FibonacciSeries series = new FibonacciSeries();
-            series.Fibonacci();
-            Console.ReadLine();
+            bool flag = true;
+
+            while (flag)
+            {
+                Console.WriteLine("welcome to Logical Programs");
+                Console.WriteLine("Choose the program below");
+                Console.WriteLine("1.Fibonacci Series \n2.Perfect Number");
+                int option = Convert.ToInt32(Console.ReadLine());
+                switch (option)
+                {
+                        case 1:
+                        FibonacciSeries series = new FibonacciSeries();
+                        series.Fibonacci();
+                        break;
+                        case 2:
+                        PerfectNumber perfectNumber = new PerfectNumber();
+                        perfectNumber.Perfect();
+                        break;
+                        Console.ReadLine();
+                }
+            }
         }
     }
 }
