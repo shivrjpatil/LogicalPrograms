@@ -44,7 +44,6 @@ namespace LogicalPrograms
                 Console.WriteLine(data);
             }
             Console.WriteLine("{0} random numbers are needed to have 10 distinct coupon numbers:", Count);
-
         }
     }
 }
