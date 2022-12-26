@@ -43,6 +43,11 @@ namespace LogicalPrograms
                         StopWatcher stop=new StopWatcher();
                         stop.satrtstop();
                         break;
+                    case 9:
+                        TempratureConversion tempratureConversion = new TempratureConversion();
+                        tempratureConversion.Celsius();
+                        tempratureConversion.Farenhit();
+                        break;
                     case 10:
                         MontlyPayment montlyPayment=new MontlyPayment();
                         montlyPayment.pay();
