@@ -43,6 +43,10 @@ namespace LogicalPrograms
                         StopWatcher stop=new StopWatcher();
                         stop.satrtstop();
                         break;
+                    case 8:
+                        DayOfWeek dayOfWeek = new DayOfWeek();
+                        DayOfWeek.Week();
+                        break;
                     case 9:
                         TempratureConversion tempratureConversion = new TempratureConversion();
                         tempratureConversion.Celsius();
