@@ -16,7 +16,7 @@ namespace LogicalPrograms
             {
                 Console.WriteLine("welcome to Logical Programs");
                 Console.WriteLine("Choose the program below");
-                Console.WriteLine("1.Fibonacci Series \n2.Perfect Number\n3.Prime Number\n4.Reverse Number\n5.Coupan Number\n6.Stop Watch");
+                Console.WriteLine("1.Fibonacci Series \n2.Perfect Number\n3.Prime Number\n4.Reverse Number\n5.Coupan Number\n6.Stop Watch\n7.Vending Machine\n8.Day Of Week\n9.Temprature Conversion\n10.Monthly Payment");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -42,6 +42,10 @@ namespace LogicalPrograms
                     case 6:
                         StopWatcher stop=new StopWatcher();
                         stop.satrtstop();
+                        break;
+                    case 10:
+                        MontlyPayment montlyPayment=new MontlyPayment();
+                        montlyPayment.pay();
                         break;
                         Console.ReadLine();
                 }
