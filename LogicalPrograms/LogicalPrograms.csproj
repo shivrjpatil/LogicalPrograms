@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CoupanNumber.cs" />
     <Compile Include="DayOfWeek.cs" />
+    <Compile Include="DecimalToBinary.cs" />
     <Compile Include="FibonacciSeries.cs" />
     <Compile Include="MontlyPayment.cs" />
     <Compile Include="PerfectNumber.cs" />

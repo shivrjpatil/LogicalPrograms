@@ -14,9 +14,9 @@ namespace LogicalPrograms
 
             while (flag)
             {
-                Console.WriteLine("welcome to Logical Programs");
+                Console.WriteLine("\nwelcome to Logical Programs");
                 Console.WriteLine("Choose the program below");
-                Console.WriteLine("1.Fibonacci Series \n2.Perfect Number\n3.Prime Number\n4.Reverse Number\n5.Coupan Number\n6.Stop Watch\n7.Vending Machine\n8.Day Of Week\n9.Temprature Conversion\n10.Monthly Payment\n11.Square of nonnegative number");
+                Console.WriteLine("1.Fibonacci Series \n2.Perfect Number\n3.Prime Number\n4.Reverse Number\n5.Coupan Number\n6.Stop Watch\n7.Vending Machine\n8.Day Of Week\n9.Temprature Conversion\n10.Monthly Payment\n11.Square of nonnegative number\n12.Decimal To Binary");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -65,6 +65,10 @@ namespace LogicalPrograms
                         double n = 327;
                         double l = 0.00001;
                         Console.WriteLine(root.Root(n, l));
+                        break;
+                    case 12:
+                        DecimalToBinary decimalToBinary = new DecimalToBinary();
+                        decimalToBinary.ToBinary();
                         break;
 
                         Console.ReadLine();
