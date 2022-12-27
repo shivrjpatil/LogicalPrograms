@@ -43,6 +43,26 @@ namespace LogicalPrograms
                         StopWatcher stop=new StopWatcher();
                         stop.satrtstop();
                         break;
+<<<<<<< Updated upstream
+=======
+                    case 7:
+                        VendingMachine vendingMachine = new VendingMachine();
+                        vendingMachine.Vending();
+                        break;
+                    case 8:
+                        DayOfWeek dayOfWeek = new DayOfWeek();
+                        DayOfWeek.Week();
+                        break;
+                    case 9:
+                        TempratureConversion tempratureConversion = new TempratureConversion();
+                        tempratureConversion.Celsius();
+                        tempratureConversion.Farenhit();
+                        break;
+                    case 10:
+                        MontlyPayment montlyPayment=new MontlyPayment();
+                        montlyPayment.pay();
+                        break;
+>>>>>>> Stashed changes
                         Console.ReadLine();
                 }
             }
